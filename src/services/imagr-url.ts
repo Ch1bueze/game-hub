@@ -1,4 +1,4 @@
-import noImage from "../assets/GameHub Resources/Image Placeholder/no-image-placeholder-6f3882e0.webp"
+import noImage from "../assets/GameHub Resources/Image Placeholder/no-image-placeholder-6f3882e0.webp";
 
 const getCroppedUrl = (url: String) => {
   if (!url) return noImage;
