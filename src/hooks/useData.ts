@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import ApiClient from "../../services/Api-client";
+import ApiClient from "../services/Api-client";
 import { AxiosRequestConfig, CanceledError } from "axios";
 
 interface FetchResponse<T> {
